@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/suchmolin/reactjscurso/static/css/main.41504607.css",
+    "main.js": "/suchmolin/reactjscurso/static/js/main.1b4da6cc.js",
+    "index.html": "/suchmolin/reactjscurso/index.html",
+    "main.41504607.css.map": "/suchmolin/reactjscurso/static/css/main.41504607.css.map",
+    "main.1b4da6cc.js.map": "/suchmolin/reactjscurso/static/js/main.1b4da6cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41504607.css",
+    "static/js/main.1b4da6cc.js"
+  ]
+}
