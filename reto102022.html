@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const heights = [1]
+
+        function checkJump(heights) {
+            let control = 0
+            let boolean = true
+            
+            heights.forEach((e, i) => {
+                if ((control == 0) && (e < heights[i+1])){control++}
+                if ((control == 2) && (e < heights[i+1])){control++}
+                if ((control == 1) && (e > heights[i+1])){control++}
+            });
+            if (control != 2) boolean = false
+            return boolean
+        }
+        checkJump(heights);
+
+    </script>
+</body>
+</html>
