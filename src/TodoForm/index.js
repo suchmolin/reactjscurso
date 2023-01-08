@@ -21,7 +21,7 @@ function TodoForm( { addTodo, setOpenModal }) {
     return (
         <form onSubmit={onSubmit}>
           <label>Agregar nuevo TODO</label>
-          <textarea
+          <input className="inputCrear"
             autoFocus
             value={newTodoValue}
             onChange={onChange}

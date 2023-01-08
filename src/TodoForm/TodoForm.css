@@ -17,7 +17,7 @@ form {
     margin-bottom: 26px;
   }
   
-  textarea {
+  .inputCrear {
     background-color: #F9FBFC;
     border: 2px solid #202329;
     border-radius: 2px;
@@ -30,13 +30,13 @@ form {
     width: calc(100% - 25px);
   }
   
-  textarea::placeholder {
+  .inputCrear::placeholder {
     color: #A5A5A5;
     font-family: 'Montserrat';
     font-weight: 400;
   }
   
-  textarea:focus {
+  .inputCrear:focus {
     outline-color: #61DAFA;
   }
   
